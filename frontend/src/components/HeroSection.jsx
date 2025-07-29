@@ -1,4 +1,6 @@
 import React from 'react';
+import chickenaround from '../images/chickenaround.jpg';
+
 
 export default function HeroSection() {
   return (
@@ -23,7 +25,7 @@ export default function HeroSection() {
               <div className="image-placeholder">
                 <div className="placeholder-content">
                   <div className="placeholder-emoji">🥚</div>
-                  <p>Hero Image Placeholder</p>
+                  {/*<img src={chickenaround}></img>*/}
                   <p className="placeholder-note">Upload your farm/egg photos here</p>
                 </div>
               </div>
