@@ -31,14 +31,14 @@ export default function Footer() {
             <div className="footer-contact">
               <h5>Contact Info</h5>
               <div className="footer-contact-info">
-                <p>(555) 123-4567</p>
-                <p>hello@justgotlaid.farm</p>
-                <p>123 Farm Road<br />Country Side, ST 12345</p>
+                <p>(610) 823-1459</p>
+                <p>cheekyccsmalls@gmail.com</p>
+                <p>Enter Socials here<br /></p>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 Just Got Laid Farm. All rights reserved.</p>
+            <p>&copy; 2025 Just Got Laid Farm. All rights reserved.</p>
           </div>
         </div>
     </footer>
