@@ -1,5 +1,5 @@
 import React from 'react';
-
+import chickeneating from '../images/chickeneating.jpg';
 
 export default function AboutSection() {
   return (
@@ -19,7 +19,7 @@ export default function AboutSection() {
             <div className="about-image">
               <div className="image-placeholder">
                 <div className="placeholder-content">
-                  <div className="placeholder-emoji">🐔</div>
+                  <img src={chickeneating} alt="Farm View" className="about-photo" />
                   <p>Farm Photo Placeholder</p>
                   <p className="placeholder-note">Upload your farm photos here</p>
                 </div>

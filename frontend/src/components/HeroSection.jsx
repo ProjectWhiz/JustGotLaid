@@ -24,13 +24,10 @@ export default function HeroSection() {
             <div className="hero-image">
               <div className="image-placeholder">
                 <div className="placeholder-content">
-                  <div className="placeholder-emoji">🥚</div>
-                  {/*<img src={chickenaround}></img>*/}
+                  <img src={chickenaround} alt="Farm Egg" className="hero-photo" />
                   <p className="placeholder-note">Upload your farm/egg photos here</p>
                 </div>
               </div>
-              <div className="floating-element floating-1"></div>
-              <div className="floating-element floating-2"></div>
             </div>
           </div>
         </div>

@@ -4,10 +4,8 @@ export default function ProductsSection() {
   const [selectedPackage, setSelectedPackage] = useState('dozen');
 
   const packages = [
-    { id: 'half-dozen', name: '6 Eggs', price: 4.99, popular: false },
     { id: 'dozen', name: '12 Eggs (1 Dozen)', price: 8.99, popular: true },
     { id: 'eighteen', name: '18 Eggs', price: 12.99, popular: false },
-    { id: 'two-dozen', name: '24 Eggs (2 Dozen)', price: 16.99, popular: false }
   ];
 
   return (
